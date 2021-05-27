@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-image: url("./entrance.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.movie-img {
+  height: 444px;
+  width: 300px;
+}
+.main {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  margin: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-detail {
+  text-align: center;
+  color: white;
+}
+
+.input-field {
+ text-align: center;
+}
+
+
+
+
+
