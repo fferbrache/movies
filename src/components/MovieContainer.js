@@ -7,7 +7,7 @@ export default function MovieContainer() {
   const [searchMovie, setSearchMovie] = useState("");
   
   const getMovies = async () => {
-    const URL = `http://www.omdbapi.com/?apikey=${API}&s=${searchMovie}`;
+    const URL = `https://www.omdbapi.com/?apikey=${API}&s=${searchMovie}`;
     const requestBody = {
       headers: { Accept: "application/json" },
     };
